@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE945AC21BD0A52300C6C1F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE945AC11BD0A52300C6C1F2 /* main.m */; };
+		EE945AC51BD0A52300C6C1F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE945AC41BD0A52300C6C1F2 /* AppDelegate.m */; };
+		EE945AC81BD0A52300C6C1F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE945AC71BD0A52300C6C1F2 /* ViewController.m */; };
+		EE945ACB1BD0A52300C6C1F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE945AC91BD0A52300C6C1F2 /* Main.storyboard */; };
+		EE945ACE1BD0A52400C6C1F2 /* MQTTKitComeOn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE945ACC1BD0A52400C6C1F2 /* MQTTKitComeOn.xcdatamodeld */; };
+		EE945AD01BD0A52400C6C1F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE945ACF1BD0A52400C6C1F2 /* Assets.xcassets */; };
+		EE945AD31BD0A52400C6C1F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE945AD11BD0A52400C6C1F2 /* LaunchScreen.storyboard */; };
+		EE945ADE1BD0A52400C6C1F2 /* MQTTKitComeOnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE945ADD1BD0A52400C6C1F2 /* MQTTKitComeOnTests.m */; };
+		EE945AE91BD0A52400C6C1F2 /* MQTTKitComeOnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE945AE81BD0A52400C6C1F2 /* MQTTKitComeOnUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE945ADA1BD0A52400C6C1F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE945AB51BD0A52300C6C1F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE945ABC1BD0A52300C6C1F2;
+			remoteInfo = MQTTKitComeOn;
+		};
+		EE945AE51BD0A52400C6C1F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE945AB51BD0A52300C6C1F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE945ABC1BD0A52300C6C1F2;
+			remoteInfo = MQTTKitComeOn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE945ABD1BD0A52300C6C1F2 /* MQTTKitComeOn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MQTTKitComeOn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE945AC11BD0A52300C6C1F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE945AC31BD0A52300C6C1F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE945AC41BD0A52300C6C1F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE945AC61BD0A52300C6C1F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE945AC71BD0A52300C6C1F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE945ACA1BD0A52300C6C1F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE945ACD1BD0A52400C6C1F2 /* MQTTKitComeOn.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MQTTKitComeOn.xcdatamodel; sourceTree = "<group>"; };
+		EE945ACF1BD0A52400C6C1F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE945AD21BD0A52400C6C1F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE945AD41BD0A52400C6C1F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE945AD91BD0A52400C6C1F2 /* MQTTKitComeOnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MQTTKitComeOnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE945ADD1BD0A52400C6C1F2 /* MQTTKitComeOnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQTTKitComeOnTests.m; sourceTree = "<group>"; };
+		EE945ADF1BD0A52400C6C1F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE945AE41BD0A52400C6C1F2 /* MQTTKitComeOnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MQTTKitComeOnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE945AE81BD0A52400C6C1F2 /* MQTTKitComeOnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQTTKitComeOnUITests.m; sourceTree = "<group>"; };
+		EE945AEA1BD0A52400C6C1F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE945ABA1BD0A52300C6C1F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE945AD61BD0A52400C6C1F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE945AE11BD0A52400C6C1F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE945AB41BD0A52300C6C1F2 = {
+			isa = PBXGroup;
+			children = (
+				EE945ABF1BD0A52300C6C1F2 /* MQTTKitComeOn */,
+				EE945ADC1BD0A52400C6C1F2 /* MQTTKitComeOnTests */,
+				EE945AE71BD0A52400C6C1F2 /* MQTTKitComeOnUITests */,
+				EE945ABE1BD0A52300C6C1F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE945ABE1BD0A52300C6C1F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE945ABD1BD0A52300C6C1F2 /* MQTTKitComeOn.app */,
+				EE945AD91BD0A52400C6C1F2 /* MQTTKitComeOnTests.xctest */,
+				EE945AE41BD0A52400C6C1F2 /* MQTTKitComeOnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE945ABF1BD0A52300C6C1F2 /* MQTTKitComeOn */ = {
+			isa = PBXGroup;
+			children = (
+				EE945AC31BD0A52300C6C1F2 /* AppDelegate.h */,
+				EE945AC41BD0A52300C6C1F2 /* AppDelegate.m */,
+				EE945AC61BD0A52300C6C1F2 /* ViewController.h */,
+				EE945AC71BD0A52300C6C1F2 /* ViewController.m */,
+				EE945AC91BD0A52300C6C1F2 /* Main.storyboard */,
+				EE945ACF1BD0A52400C6C1F2 /* Assets.xcassets */,
+				EE945AD11BD0A52400C6C1F2 /* LaunchScreen.storyboard */,
+				EE945AD41BD0A52400C6C1F2 /* Info.plist */,
+				EE945ACC1BD0A52400C6C1F2 /* MQTTKitComeOn.xcdatamodeld */,
+				EE945AC01BD0A52300C6C1F2 /* Supporting Files */,
+			);
+			path = MQTTKitComeOn;
+			sourceTree = "<group>";
+		};
+		EE945AC01BD0A52300C6C1F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE945AC11BD0A52300C6C1F2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE945ADC1BD0A52400C6C1F2 /* MQTTKitComeOnTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE945ADD1BD0A52400C6C1F2 /* MQTTKitComeOnTests.m */,
+				EE945ADF1BD0A52400C6C1F2 /* Info.plist */,
+			);
+			path = MQTTKitComeOnTests;
+			sourceTree = "<group>";
+		};
+		EE945AE71BD0A52400C6C1F2 /* MQTTKitComeOnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE945AE81BD0A52400C6C1F2 /* MQTTKitComeOnUITests.m */,
+				EE945AEA1BD0A52400C6C1F2 /* Info.plist */,
+			);
+			path = MQTTKitComeOnUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE945ABC1BD0A52300C6C1F2 /* MQTTKitComeOn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE945AED1BD0A52400C6C1F2 /* Build configuration list for PBXNativeTarget "MQTTKitComeOn" */;
+			buildPhases = (
+				EE945AB91BD0A52300C6C1F2 /* Sources */,
+				EE945ABA1BD0A52300C6C1F2 /* Frameworks */,
+				EE945ABB1BD0A52300C6C1F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MQTTKitComeOn;
+			productName = MQTTKitComeOn;
+			productReference = EE945ABD1BD0A52300C6C1F2 /* MQTTKitComeOn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE945AD81BD0A52400C6C1F2 /* MQTTKitComeOnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE945AF01BD0A52400C6C1F2 /* Build configuration list for PBXNativeTarget "MQTTKitComeOnTests" */;
+			buildPhases = (
+				EE945AD51BD0A52400C6C1F2 /* Sources */,
+				EE945AD61BD0A52400C6C1F2 /* Frameworks */,
+				EE945AD71BD0A52400C6C1F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE945ADB1BD0A52400C6C1F2 /* PBXTargetDependency */,
+			);
+			name = MQTTKitComeOnTests;
+			productName = MQTTKitComeOnTests;
+			productReference = EE945AD91BD0A52400C6C1F2 /* MQTTKitComeOnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE945AE31BD0A52400C6C1F2 /* MQTTKitComeOnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE945AF31BD0A52400C6C1F2 /* Build configuration list for PBXNativeTarget "MQTTKitComeOnUITests" */;
+			buildPhases = (
+				EE945AE01BD0A52400C6C1F2 /* Sources */,
+				EE945AE11BD0A52400C6C1F2 /* Frameworks */,
+				EE945AE21BD0A52400C6C1F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE945AE61BD0A52400C6C1F2 /* PBXTargetDependency */,
+			);
+			name = MQTTKitComeOnUITests;
+			productName = MQTTKitComeOnUITests;
+			productReference = EE945AE41BD0A52400C6C1F2 /* MQTTKitComeOnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE945AB51BD0A52300C6C1F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = scinan;
+				TargetAttributes = {
+					EE945ABC1BD0A52300C6C1F2 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 23GYE9N872;
+					};
+					EE945AD81BD0A52400C6C1F2 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 23GYE9N872;
+						TestTargetID = EE945ABC1BD0A52300C6C1F2;
+					};
+					EE945AE31BD0A52400C6C1F2 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 23GYE9N872;
+						TestTargetID = EE945ABC1BD0A52300C6C1F2;
+					};
+				};
+			};
+			buildConfigurationList = EE945AB81BD0A52300C6C1F2 /* Build configuration list for PBXProject "MQTTKitComeOn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE945AB41BD0A52300C6C1F2;
+			productRefGroup = EE945ABE1BD0A52300C6C1F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE945ABC1BD0A52300C6C1F2 /* MQTTKitComeOn */,
+				EE945AD81BD0A52400C6C1F2 /* MQTTKitComeOnTests */,
+				EE945AE31BD0A52400C6C1F2 /* MQTTKitComeOnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE945ABB1BD0A52300C6C1F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE945AD31BD0A52400C6C1F2 /* LaunchScreen.storyboard in Resources */,
+				EE945AD01BD0A52400C6C1F2 /* Assets.xcassets in Resources */,
+				EE945ACB1BD0A52300C6C1F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE945AD71BD0A52400C6C1F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE945AE21BD0A52400C6C1F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE945AB91BD0A52300C6C1F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE945AC81BD0A52300C6C1F2 /* ViewController.m in Sources */,
+				EE945ACE1BD0A52400C6C1F2 /* MQTTKitComeOn.xcdatamodeld in Sources */,
+				EE945AC51BD0A52300C6C1F2 /* AppDelegate.m in Sources */,
+				EE945AC21BD0A52300C6C1F2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE945AD51BD0A52400C6C1F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE945ADE1BD0A52400C6C1F2 /* MQTTKitComeOnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE945AE01BD0A52400C6C1F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE945AE91BD0A52400C6C1F2 /* MQTTKitComeOnUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE945ADB1BD0A52400C6C1F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE945ABC1BD0A52300C6C1F2 /* MQTTKitComeOn */;
+			targetProxy = EE945ADA1BD0A52400C6C1F2 /* PBXContainerItemProxy */;
+		};
+		EE945AE61BD0A52400C6C1F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE945ABC1BD0A52300C6C1F2 /* MQTTKitComeOn */;
+			targetProxy = EE945AE51BD0A52400C6C1F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE945AC91BD0A52300C6C1F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE945ACA1BD0A52300C6C1F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE945AD11BD0A52400C6C1F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE945AD21BD0A52400C6C1F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE945AEB1BD0A52400C6C1F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE945AEC1BD0A52400C6C1F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE945AEE1BD0A52400C6C1F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MQTTKitComeOn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scinan.socket.MQTTKitComeOn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE945AEF1BD0A52400C6C1F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MQTTKitComeOn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scinan.socket.MQTTKitComeOn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE945AF11BD0A52400C6C1F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MQTTKitComeOnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scinan.socket.MQTTKitComeOnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MQTTKitComeOn.app/MQTTKitComeOn";
+			};
+			name = Debug;
+		};
+		EE945AF21BD0A52400C6C1F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MQTTKitComeOnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scinan.socket.MQTTKitComeOnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MQTTKitComeOn.app/MQTTKitComeOn";
+			};
+			name = Release;
+		};
+		EE945AF41BD0A52400C6C1F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MQTTKitComeOnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scinan.socket.MQTTKitComeOnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MQTTKitComeOn;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EE945AF51BD0A52400C6C1F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MQTTKitComeOnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scinan.socket.MQTTKitComeOnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MQTTKitComeOn;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE945AB81BD0A52300C6C1F2 /* Build configuration list for PBXProject "MQTTKitComeOn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE945AEB1BD0A52400C6C1F2 /* Debug */,
+				EE945AEC1BD0A52400C6C1F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE945AED1BD0A52400C6C1F2 /* Build configuration list for PBXNativeTarget "MQTTKitComeOn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE945AEE1BD0A52400C6C1F2 /* Debug */,
+				EE945AEF1BD0A52400C6C1F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE945AF01BD0A52400C6C1F2 /* Build configuration list for PBXNativeTarget "MQTTKitComeOnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE945AF11BD0A52400C6C1F2 /* Debug */,
+				EE945AF21BD0A52400C6C1F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE945AF31BD0A52400C6C1F2 /* Build configuration list for PBXNativeTarget "MQTTKitComeOnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE945AF41BD0A52400C6C1F2 /* Debug */,
+				EE945AF51BD0A52400C6C1F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE945ACC1BD0A52400C6C1F2 /* MQTTKitComeOn.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE945ACD1BD0A52400C6C1F2 /* MQTTKitComeOn.xcdatamodel */,
+			);
+			currentVersion = EE945ACD1BD0A52400C6C1F2 /* MQTTKitComeOn.xcdatamodel */;
+			path = MQTTKitComeOn.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE945AB51BD0A52300C6C1F2 /* Project object */;
+}
