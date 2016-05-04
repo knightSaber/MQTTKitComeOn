@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		292EE6DB4C4E162518F9CDE0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E71A168F0749C8ABE43F203B /* libPods.a */; };
 		EE945AC21BD0A52300C6C1F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE945AC11BD0A52300C6C1F2 /* main.m */; };
 		EE945AC51BD0A52300C6C1F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE945AC41BD0A52300C6C1F2 /* AppDelegate.m */; };
 		EE945AC81BD0A52300C6C1F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE945AC71BD0A52300C6C1F2 /* ViewController.m */; };
@@ -36,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		340791DB86AF7D232E3586EF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		524DB8548B2625A28DC8107E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E71A168F0749C8ABE43F203B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE945ABD1BD0A52300C6C1F2 /* MQTTKitComeOn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MQTTKitComeOn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE945AC11BD0A52300C6C1F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE945AC31BD0A52300C6C1F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				292EE6DB4C4E162518F9CDE0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +85,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44C7A114D75323D7BF37BE44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E71A168F0749C8ABE43F203B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC6DCB547ADE64B843C13294 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				524DB8548B2625A28DC8107E /* Pods.debug.xcconfig */,
+				340791DB86AF7D232E3586EF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EE945AB41BD0A52300C6C1F2 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +109,8 @@
 				EE945ADC1BD0A52400C6C1F2 /* MQTTKitComeOnTests */,
 				EE945AE71BD0A52400C6C1F2 /* MQTTKitComeOnUITests */,
 				EE945ABE1BD0A52300C6C1F2 /* Products */,
+				BC6DCB547ADE64B843C13294 /* Pods */,
+				44C7A114D75323D7BF37BE44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE945AED1BD0A52400C6C1F2 /* Build configuration list for PBXNativeTarget "MQTTKitComeOn" */;
 			buildPhases = (
+				0D681E7A6DE9EE42C0EE7A51 /* Check Pods Manifest.lock */,
 				EE945AB91BD0A52300C6C1F2 /* Sources */,
 				EE945ABA1BD0A52300C6C1F2 /* Frameworks */,
 				EE945ABB1BD0A52300C6C1F2 /* Resources */,
+				76B10EA974A844D263997C55 /* Embed Pods Frameworks */,
+				E42BD7A23B4DB165E8D7913B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,7 +237,7 @@
 				TargetAttributes = {
 					EE945ABC1BD0A52300C6C1F2 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 23GYE9N872;
+						DevelopmentTeam = 56N39S7A6L;
 					};
 					EE945AD81BD0A52400C6C1F2 = {
 						CreatedOnToolsVersion = 7.0;
@@ -270,6 +297,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D681E7A6DE9EE42C0EE7A51 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		76B10EA974A844D263997C55 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E42BD7A23B4DB165E8D7913B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EE945AB91BD0A52300C6C1F2 /* Sources */ = {
@@ -416,23 +491,33 @@
 		};
 		EE945AEE1BD0A52400C6C1F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 524DB8548B2625A28DC8107E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MQTTKitComeOn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.scinan.socket.MQTTKitComeOn;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scinan.socketcbt.MQTTKitComeOn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Debug;
 		};
 		EE945AEF1BD0A52400C6C1F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 340791DB86AF7D232E3586EF /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MQTTKitComeOn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.scinan.socket.MQTTKitComeOn;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scinan.socketcbt.MQTTKitComeOn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Release;
 		};
@@ -503,6 +588,7 @@
 				EE945AEF1BD0A52400C6C1F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE945AF01BD0A52400C6C1F2 /* Build configuration list for PBXNativeTarget "MQTTKitComeOnTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +597,7 @@
 				EE945AF21BD0A52400C6C1F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE945AF31BD0A52400C6C1F2 /* Build configuration list for PBXNativeTarget "MQTTKitComeOnUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +606,7 @@
 				EE945AF51BD0A52400C6C1F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
